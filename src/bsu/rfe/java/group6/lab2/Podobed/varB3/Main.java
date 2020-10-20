@@ -1,4 +1,4 @@
-package bsu.rfe.java.group6.lab2.Podobed.varA3;
+package bsu.rfe.java.group6.lab2.Podobed.varB3;
 
 
 // Импортируются классы, используемые в приложении
