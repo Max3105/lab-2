@@ -118,19 +118,28 @@ public class Main extends JFrame {
         Box hboxVariables = Box.createHorizontalBox();
         hboxVariables.setBorder(
                 BorderFactory.createLineBorder(Color.RED));
-        hboxVariables.add(Box.createHorizontalGlue());
+      //  hboxVariables.add(Box.createHorizontalGlue());
         hboxVariables.add(labelForX);
+       // hboxVariables.add(Box.createHorizontalGlue());
         hboxVariables.add(Box.createHorizontalStrut(10));
+     //   hboxVariables.add(Box.createHorizontalGlue());
         hboxVariables.add(textFieldX);
+       // hboxVariables.add(Box.createHorizontalGlue());
+
+        //hboxVariables.add(Box.createHorizontalGlue());
         hboxVariables.add(Box.createHorizontalStrut(50));
+        hboxVariables.add(Box.createHorizontalGlue());
         hboxVariables.add(labelForY);
+        //hboxVariables.add(Box.createHorizontalGlue());
         hboxVariables.add(Box.createHorizontalStrut(10));
+       // hboxVariables.add(Box.createHorizontalGlue());
         hboxVariables.add(textFieldY);
+        hboxVariables.add(Box.createHorizontalGlue());
         hboxVariables.add(Box.createHorizontalStrut(50));
         hboxVariables.add(labelForZ);
         hboxVariables.add(Box.createHorizontalStrut(10));
         hboxVariables.add(textFieldZ);
-        hboxVariables.add(Box.createHorizontalGlue());
+        //hboxVariables.add(Box.createHorizontalGlue());
 // Создать область для вывода результата
         JLabel labelForResult = new JLabel("Результат:");
 //labelResult = new JLabel("0");
